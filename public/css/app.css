@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 .conteiner{
     background-image: url(../images/snapsaga-BSq0evBiUNs-unsplash.jpg);
     background-repeat: no-repeat;
@@ -5,4 +11,55 @@
     width: 99vw;
     height: 95vh;
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.parent-nav{
+    width:96%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    
+}.left-nav{
+    padding-left: 5px;
+    color: rgb(91, 213, 237);
+}
+.parent-nav a{
+    color: gray;
+    font-weight: bold;
+}
+.pages-nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-nav{
+    width: 330px;
+    display: flex;
+        position: relative;
+
+}.right-nav button{
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: black;
+}
+.right-nav input{
+    border-color: aqua;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.right-nav i{
+    position: absolute;
+    left: 10px;
+    top: 8px;
 }
